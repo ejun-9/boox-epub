@@ -1,6 +1,8 @@
 # boox-epub
 
-Scripts behind my `boox-epub` Claude skill. They turn `.txt`, `.md` and PDF files, and web articles, into clean, reflowable EPUBs sized for a Boox Palma (6.13" e-ink).
+Scripts behind my `boox-epub` Claude skill, built specifically for my own Boox Palma (6.13" monochrome e-ink, 824 × 1648 px, 300 ppi). They turn `.txt`, `.md` and PDF files, and web articles, into clean, reflowable EPUBs that read well on it.
+
+Every layout choice is tuned to that one screen: a narrow column, so text is left-aligned with hyphenation rather than justified; pure black, because greys dither on e-ink; and tables that only stay as tables when they fit about 40 characters. They will open on other e-readers, but they are not designed for them.
 
 | File | What it does |
 |---|---|
